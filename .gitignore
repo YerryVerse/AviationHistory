@@ -1,0 +1,87 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Bundled portable runtimes & local tools
+tools/
+.worktrees/
+.aircraft_damage_rollback/
+.total_airframe_hrs_rollback/
+Pendientes/
+portfolio/
+exports/
+docs/
+scratch/
+tests/
+
+# Offline scraping & extraction pipelines (Private local tools)
+scraper/
+standalone-html-archive/
+update_aircraft_disposition_candidate.py
+START_GITHUB_PUSH.cmd
+START_PORTABLE.cmd
+START_PORTABLE.ps1
+
+# Python / Jupyter files
+*.ipynb
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Website private raw caches and scrapers
+Website/extract_asn_*.ipynb
+Website/aviation_accidents_research.ipynb
+Website/extract_aviation_complementary_sources.ipynb
+Website/extract_asn_resumable_batch.py
+Website/xml_extractor.py
+Website/repair_asn_*.py
+Website/data_loader.py
+Website/dashboard.py
+Website/dashboard_backup.py
+Website/monitor_asn_extraction.ps1
+Website/run_asn_extraction_batches.ps1
+Website/data_xml_extractions/
+Website/html-data/
+Website/asn_cache/
+Website/complementary_sources/
+Website/data_working_state/
+Website/data_backup_csv/
+Website/development_tasks.txt
+Website/watched_files.txt
+Website/historical_aviation_accident_sources.md
+Website/requirements.txt
+Website/__pycache__/
+Website/logs/
+Website/.logs/
+Website/scratch/
+Website/.tmp-chrome-*
+
+# Build outputs
+.next/
+Website/.next/
+out/
+Website/out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.rar
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

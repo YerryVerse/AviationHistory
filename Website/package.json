@@ -1,0 +1,53 @@
+{
+  "name": "aviation-safety-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "serve -s out",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "copy:duckdb": "node scripts/copy-duckdb-assets.mjs",
+    "prebuild": "npm run copy:duckdb",
+    "verify:export": "node scripts/verify-static-export.mjs"
+  },
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.33.1-dev45.0",
+    "@fontsource/roboto": "^5.2.10",
+    "@heroui/react": "^3.0.5",
+    "@heroui/styles": "^3.0.5",
+    "@mantine/core": "^9.3.2",
+    "@mantine/hooks": "^9.3.2",
+    "@nextui-org/react": "^2.6.11",
+    "apache-arrow": "^21.1.0",
+    "country-flag-icons": "^1.6.20",
+    "csv-parse": "^6.2.1",
+    "echarts": "^6.1.0",
+    "fast-xml-parser": "^5.8.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.16.0",
+    "maplibre-gl": "^5.24.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "svg-country-flags": "^1.2.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "jsdom": "^29.1.1",
+    "playwright": "^1.61.0",
+    "serve": "^14.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.9"
+  }
+}

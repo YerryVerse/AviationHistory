@@ -1,0 +1,296 @@
+{
+  "analytical_field_count": 57,
+  "field_count": 57,
+  "fields": [
+    {
+      "arrow_type": "int64",
+      "name": "asn_id",
+      "nullable": false
+    },
+    {
+      "arrow_type": "string",
+      "name": "title",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "category",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "icao_occurrence_category",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "confidence_rating",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "event_date",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "event_year",
+      "nullable": false
+    },
+    {
+      "arrow_type": "string",
+      "name": "event_month",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "event_day",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "event_weekday",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "local_time",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_type",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_designation",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_manufacturer",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_name",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_model",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_variant",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_common_name",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "operator",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "registration",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "msn",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "year_of_manufacture",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "engine_model",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "cycles",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "total_airframe_hrs",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_damage",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_disposition",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "history_of_this_aircraft",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "occupants",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "fatalities_onboard",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "survivors_onboard",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "fatalities_ground",
+      "nullable": true
+    },
+    {
+      "arrow_type": "int64",
+      "name": "fatalities_total",
+      "nullable": true
+    },
+    {
+      "arrow_type": "double",
+      "name": "survival_rate_onboard",
+      "nullable": true
+    },
+    {
+      "arrow_type": "double",
+      "name": "fatality_rate_onboard",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "location",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "country",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "continent",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "region",
+      "nullable": true
+    },
+    {
+      "arrow_type": "double",
+      "name": "gps_latitude",
+      "nullable": true
+    },
+    {
+      "arrow_type": "double",
+      "name": "gps_longitude",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "phase",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "phase_group",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "nature",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "departure_airport",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "departure_iata",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "destination_airport",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "destination_iata",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "metar",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "weather_or_visibility_mentioned",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "investigating_agency",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "accident_investigation_duration",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "accident_investigation_report",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "accident_investigation_report_number",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "accident_investigation_status",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "narrative",
+      "nullable": true
+    },
+    {
+      "arrow_type": "string",
+      "name": "aircraft_image_url",
+      "nullable": true
+    }
+  ],
+  "required_fields": [
+    "asn_id",
+    "event_year"
+  ],
+  "schema_version": "1.0.0"
+}

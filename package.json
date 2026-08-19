@@ -1,0 +1,22 @@
+{
+  "name": "aviation-history-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix Website ci && npm --prefix scraper ci",
+    "dev": "node scripts/dev-all.js",
+    "dev:portable": "tools\\node\\node.exe scripts\\dev-all.js",
+    "package:portable": "powershell -ExecutionPolicy Bypass -File scripts\\package-portable.ps1",
+    "website:dev": "npm --prefix Website run dev",
+    "website:start": "powershell -ExecutionPolicy Bypass -File scripts\\start-website-production.ps1 -Wait",
+    "website:start:fast": "powershell -ExecutionPolicy Bypass -File scripts\\start-website-production.ps1 -SkipBuild -Wait",
+    "website:build": "npm --prefix Website run build",
+    "website:lint": "npm --prefix Website run lint",
+    "scraper:server": "npm --prefix scraper run server",
+    "scraper:dev": "npm --prefix scraper run dev",
+    "scraper:build": "npm --prefix scraper run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,5156 @@
+{
+  "columns": [
+    {
+      "dataType": "integer",
+      "field": "asn_id",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Asn Id",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 574633,
+        "mean": 223455.3319496009,
+        "median": 215077.0,
+        "min": 831
+      },
+      "topValues": [
+        {
+          "count": 1,
+          "value": "1000"
+        },
+        {
+          "count": 1,
+          "value": "10000"
+        },
+        {
+          "count": 1,
+          "value": "100000"
+        },
+        {
+          "count": 1,
+          "value": "100001"
+        },
+        {
+          "count": 1,
+          "value": "100002"
+        },
+        {
+          "count": 1,
+          "value": "100003"
+        },
+        {
+          "count": 1,
+          "value": "100005"
+        },
+        {
+          "count": 1,
+          "value": "100007"
+        },
+        {
+          "count": 1,
+          "value": "100008"
+        },
+        {
+          "count": 1,
+          "value": "100009"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 396753,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "title",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Title",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 60.17274979647287,
+        "kind": "text",
+        "maxLength": 112,
+        "minLength": 22
+      },
+      "topValues": [
+        {
+          "count": 148,
+          "value": "Accident Junkers Ju-52/3m , Friday 10 May 1940"
+        },
+        {
+          "count": 26,
+          "value": "Accident Junkers Ju 52/3m , Friday 10 May 1940"
+        },
+        {
+          "count": 16,
+          "value": "Incident North American NA-16 , Thursday 12 December 1940"
+        },
+        {
+          "count": 16,
+          "value": "Incident Polikarpov I-15 , Tuesday 27 May 1941"
+        },
+        {
+          "count": 14,
+          "value": "Accident Ilyushin Il-2 , Thursday 31 August 1944"
+        },
+        {
+          "count": 14,
+          "value": "Accident MiG-23 , Thursday 10 June 1982"
+        },
+        {
+          "count": 13,
+          "value": "Accident Ilyushin Il-10M , Saturday 14 April 1951"
+        },
+        {
+          "count": 13,
+          "value": "Accident Messerschmitt Me 323 , Thursday 22 April 1943"
+        },
+        {
+          "count": 13,
+          "value": "Accident MiG-15 , Thursday 4 September 1952"
+        },
+        {
+          "count": 13,
+          "value": "Accident Mikojan-Gurjevi\u010d MiG-21 , Monday 5 June 1967"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 392042,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "category",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Category",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 7.998515449158544,
+        "kind": "text",
+        "maxLength": 10,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 312552,
+          "value": "Accident"
+        },
+        {
+          "count": 57493,
+          "value": "Incident"
+        },
+        {
+          "count": 24850,
+          "value": "Shotdown"
+        },
+        {
+          "count": 1596,
+          "value": "Unlawful"
+        },
+        {
+          "count": 78,
+          "value": "Runway"
+        },
+        {
+          "count": 37,
+          "value": "Gear"
+        },
+        {
+          "count": 37,
+          "value": "Serious"
+        },
+        {
+          "count": 24,
+          "value": "Hard"
+        },
+        {
+          "count": 23,
+          "value": "Bird"
+        },
+        {
+          "count": 19,
+          "value": "Wirestrike"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 17,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "icao_occurrence_category",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Icao Occurrence Category",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 12.460792987072562,
+        "kind": "text",
+        "maxLength": 150,
+        "minLength": 4
+      },
+      "topValues": [
+        {
+          "count": 387698,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 1560,
+          "value": "System/Component Failure or Malfunction (Powerplant)"
+        },
+        {
+          "count": 1338,
+          "value": "Loss of Control\u2013Inflight"
+        },
+        {
+          "count": 883,
+          "value": "Abnormal Runway Contact"
+        },
+        {
+          "count": 841,
+          "value": "System/Component Failure or Malfunction (Non-Powerplant)"
+        },
+        {
+          "count": 606,
+          "value": "Runway Excursion"
+        },
+        {
+          "count": 506,
+          "value": "Controlled Flight Into or Toward Terrain"
+        },
+        {
+          "count": 403,
+          "value": "Loss of Control\u2013Ground"
+        },
+        {
+          "count": 387,
+          "value": "Fuel Related"
+        },
+        {
+          "count": 370,
+          "value": "Airprox/TCAS Alert/Loss of Separation/(Near) Midair Collisions"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 38,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "confidence_rating",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Confidence Rating",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 54.82332403114845,
+        "kind": "text",
+        "maxLength": 75,
+        "minLength": 37
+      },
+      "topValues": [
+        {
+          "count": 176391,
+          "value": "Little or no information is available"
+        },
+        {
+          "count": 107336,
+          "value": "Accident investigation report completed and information captured"
+        },
+        {
+          "count": 60075,
+          "value": "Information verified through data from accident investigation authorities"
+        },
+        {
+          "count": 52879,
+          "value": "Information is only available from news, social media or unofficial sources"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 4,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "event_date",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Event Date",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 10.0,
+        "kind": "text",
+        "maxLength": 10,
+        "minLength": 10
+      },
+      "topValues": [
+        {
+          "count": 548,
+          "value": "1940-05-10"
+        },
+        {
+          "count": 355,
+          "value": "1944-09-17"
+        },
+        {
+          "count": 308,
+          "value": "1945-01-01"
+        },
+        {
+          "count": 276,
+          "value": "1944-09-18"
+        },
+        {
+          "count": 226,
+          "value": "1945-03-24"
+        },
+        {
+          "count": 200,
+          "value": "1944-06-06"
+        },
+        {
+          "count": 191,
+          "value": "1961-06-01"
+        },
+        {
+          "count": 185,
+          "value": "1959-XX-XX"
+        },
+        {
+          "count": 170,
+          "value": "1960-07-01"
+        },
+        {
+          "count": 159,
+          "value": "1962-03-01"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 38849,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "event_year",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Event Year",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 2026,
+        "mean": 1978.263468707231,
+        "median": 1981.0,
+        "min": 1902
+      },
+      "topValues": [
+        {
+          "count": 23029,
+          "value": "1944"
+        },
+        {
+          "count": 16549,
+          "value": "1943"
+        },
+        {
+          "count": 13624,
+          "value": "1945"
+        },
+        {
+          "count": 10468,
+          "value": "1942"
+        },
+        {
+          "count": 6250,
+          "value": "1940"
+        },
+        {
+          "count": 5755,
+          "value": "2022"
+        },
+        {
+          "count": 5552,
+          "value": "2024"
+        },
+        {
+          "count": 5527,
+          "value": "2023"
+        },
+        {
+          "count": 5363,
+          "value": "2025"
+        },
+        {
+          "count": 5349,
+          "value": "1982"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 125,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "event_month",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Event Month",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 1.2760799594708017,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 41002,
+          "value": "7"
+        },
+        {
+          "count": 39312,
+          "value": "8"
+        },
+        {
+          "count": 39010,
+          "value": "6"
+        },
+        {
+          "count": 38256,
+          "value": "5"
+        },
+        {
+          "count": 35342,
+          "value": "9"
+        },
+        {
+          "count": 32870,
+          "value": "4"
+        },
+        {
+          "count": 32078,
+          "value": "3"
+        },
+        {
+          "count": 30402,
+          "value": "10"
+        },
+        {
+          "count": 27680,
+          "value": "1"
+        },
+        {
+          "count": 27116,
+          "value": "2"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 13,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "event_day",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Event Day",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 1.770952058091851,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 13653,
+          "value": "1"
+        },
+        {
+          "count": 13415,
+          "value": "17"
+        },
+        {
+          "count": 13307,
+          "value": "10"
+        },
+        {
+          "count": 13293,
+          "value": "18"
+        },
+        {
+          "count": 13176,
+          "value": "15"
+        },
+        {
+          "count": 13122,
+          "value": "16"
+        },
+        {
+          "count": 13082,
+          "value": "23"
+        },
+        {
+          "count": 13072,
+          "value": "6"
+        },
+        {
+          "count": 13009,
+          "value": "4"
+        },
+        {
+          "count": 13007,
+          "value": "19"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 32,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "event_weekday",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Event Weekday",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 7.181713467640913,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 6
+      },
+      "topValues": [
+        {
+          "count": 60692,
+          "value": "Saturday"
+        },
+        {
+          "count": 58377,
+          "value": "Friday"
+        },
+        {
+          "count": 57019,
+          "value": "Sunday"
+        },
+        {
+          "count": 56584,
+          "value": "Thursday"
+        },
+        {
+          "count": 54870,
+          "value": "Wednesday"
+        },
+        {
+          "count": 54414,
+          "value": "Tuesday"
+        },
+        {
+          "count": 52250,
+          "value": "Monday"
+        },
+        {
+          "count": 2545,
+          "value": "Not Recorded"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 8,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "local_time",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Local Time",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 7.744737830879293,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 151373,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 15803,
+          "value": "day"
+        },
+        {
+          "count": 5409,
+          "value": "night"
+        },
+        {
+          "count": 3291,
+          "value": "15:00"
+        },
+        {
+          "count": 3200,
+          "value": "16:00"
+        },
+        {
+          "count": 3095,
+          "value": "14:00"
+        },
+        {
+          "count": 2842,
+          "value": "11:00"
+        },
+        {
+          "count": 2809,
+          "value": "14:30"
+        },
+        {
+          "count": 2803,
+          "value": "13:00"
+        },
+        {
+          "count": 2788,
+          "value": "15:30"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 5050,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_type",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Type",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 8.147930828500352,
+        "kind": "text",
+        "maxLength": 17,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 295997,
+          "value": "Propeller"
+        },
+        {
+          "count": 53789,
+          "value": "Jet"
+        },
+        {
+          "count": 31720,
+          "value": "Helicopter"
+        },
+        {
+          "count": 10173,
+          "value": "Glider"
+        },
+        {
+          "count": 2385,
+          "value": "UAV"
+        },
+        {
+          "count": 1239,
+          "value": "Balloon"
+        },
+        {
+          "count": 888,
+          "value": "Gyroplane"
+        },
+        {
+          "count": 174,
+          "value": "Paramotor"
+        },
+        {
+          "count": 169,
+          "value": "Airship"
+        },
+        {
+          "count": 132,
+          "value": "Tiltrotor"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 12,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_designation",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Designation",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.067870942374727,
+        "kind": "text",
+        "maxLength": 8,
+        "minLength": 5
+      },
+      "topValues": [
+        {
+          "count": 255526,
+          "value": "Civil"
+        },
+        {
+          "count": 141227,
+          "value": "Military"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 2,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_manufacturer",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Manufacturer",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 7.701961199454564,
+        "kind": "text",
+        "maxLength": 37,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 52370,
+          "value": "Cessna"
+        },
+        {
+          "count": 32858,
+          "value": "Piper"
+        },
+        {
+          "count": 13547,
+          "value": "Boeing"
+        },
+        {
+          "count": 13174,
+          "value": "Beechcraft"
+        },
+        {
+          "count": 12477,
+          "value": "North American"
+        },
+        {
+          "count": 11468,
+          "value": "de Havilland"
+        },
+        {
+          "count": 11275,
+          "value": "Bell"
+        },
+        {
+          "count": 10735,
+          "value": "Douglas"
+        },
+        {
+          "count": 9067,
+          "value": "Lockheed"
+        },
+        {
+          "count": 6564,
+          "value": "Republic"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 5100,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_name",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Name",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 4.826100764467028,
+        "kind": "text",
+        "maxLength": 50,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 10615,
+          "value": "172"
+        },
+        {
+          "count": 9741,
+          "value": "PA-28"
+        },
+        {
+          "count": 5529,
+          "value": "150"
+        },
+        {
+          "count": 5068,
+          "value": "DH-98"
+        },
+        {
+          "count": 4745,
+          "value": "182"
+        },
+        {
+          "count": 4285,
+          "value": "737"
+        },
+        {
+          "count": 4180,
+          "value": "F4U"
+        },
+        {
+          "count": 3586,
+          "value": "C-47"
+        },
+        {
+          "count": 3586,
+          "value": "Spitfire"
+        },
+        {
+          "count": 3440,
+          "value": "PA-18"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 12456,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_model",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Model",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.523842650354004,
+        "kind": "text",
+        "maxLength": 47,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 5057,
+          "value": "DH.98"
+        },
+        {
+          "count": 4949,
+          "value": "Aircraft"
+        },
+        {
+          "count": 3199,
+          "value": "152"
+        },
+        {
+          "count": 2580,
+          "value": "Blenheim"
+        },
+        {
+          "count": 2517,
+          "value": "Beaufighter"
+        },
+        {
+          "count": 2415,
+          "value": "PA-28-140"
+        },
+        {
+          "count": 2120,
+          "value": "R22"
+        },
+        {
+          "count": 2015,
+          "value": "172N"
+        },
+        {
+          "count": 1862,
+          "value": "P-47D"
+        },
+        {
+          "count": 1677,
+          "value": "R44"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 25405,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_variant",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Variant",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.0379839003276565,
+        "kind": "text",
+        "maxLength": 37,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 144445,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 23497,
+          "value": "A"
+        },
+        {
+          "count": 18103,
+          "value": "B"
+        },
+        {
+          "count": 11377,
+          "value": "C"
+        },
+        {
+          "count": 11106,
+          "value": "D"
+        },
+        {
+          "count": 8299,
+          "value": "G"
+        },
+        {
+          "count": 7002,
+          "value": "F"
+        },
+        {
+          "count": 6564,
+          "value": "E"
+        },
+        {
+          "count": 5273,
+          "value": "M"
+        },
+        {
+          "count": 5146,
+          "value": "N"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 7407,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_common_name",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Common Name",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 8.58743325512722,
+        "kind": "text",
+        "maxLength": 78,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 11830,
+          "value": "Skyhawk"
+        },
+        {
+          "count": 9785,
+          "value": "Cherokee"
+        },
+        {
+          "count": 5530,
+          "value": "Cessna 150"
+        },
+        {
+          "count": 5404,
+          "value": "Skylane"
+        },
+        {
+          "count": 5072,
+          "value": "Mosquito"
+        },
+        {
+          "count": 4272,
+          "value": "Corsair"
+        },
+        {
+          "count": 4257,
+          "value": "Bonanza"
+        },
+        {
+          "count": 4168,
+          "value": "DC-3"
+        },
+        {
+          "count": 3936,
+          "value": "Glider"
+        },
+        {
+          "count": 3629,
+          "value": "Super Cub"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 21011,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "operator",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Operator",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 18.313454466632894,
+        "kind": "text",
+        "maxLength": 76,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 110723,
+          "value": "Non Recorded"
+        },
+        {
+          "count": 30000,
+          "value": "Royal Air Force"
+        },
+        {
+          "count": 25992,
+          "value": "United States Army Air Forces"
+        },
+        {
+          "count": 11569,
+          "value": "United States Air Force"
+        },
+        {
+          "count": 9282,
+          "value": "United States Navy"
+        },
+        {
+          "count": 2709,
+          "value": "Arm\u00e9e de l'Air"
+        },
+        {
+          "count": 1795,
+          "value": "United States Army Air Corps"
+        },
+        {
+          "count": 1714,
+          "value": "Swedish Air Force"
+        },
+        {
+          "count": 1521,
+          "value": "Luftwaffe"
+        },
+        {
+          "count": 1484,
+          "value": "United States Marine Corps"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 90103,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "registration",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Registration",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.646622342236039,
+        "kind": "text",
+        "maxLength": 15,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 43870,
+          "value": "Unregistered"
+        },
+        {
+          "count": 146,
+          "value": "D-E..."
+        },
+        {
+          "count": 78,
+          "value": "D-M..."
+        },
+        {
+          "count": 53,
+          "value": "1"
+        },
+        {
+          "count": 49,
+          "value": "2"
+        },
+        {
+          "count": 38,
+          "value": "3"
+        },
+        {
+          "count": 33,
+          "value": "5"
+        },
+        {
+          "count": 30,
+          "value": "22"
+        },
+        {
+          "count": 30,
+          "value": "4"
+        },
+        {
+          "count": 30,
+          "value": "D-K..."
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 315299,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "msn",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Msn",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 8.118470422109032,
+        "kind": "text",
+        "maxLength": 18,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 135734,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 609,
+          "value": "1"
+        },
+        {
+          "count": 538,
+          "value": "001"
+        },
+        {
+          "count": 198,
+          "value": "01"
+        },
+        {
+          "count": 183,
+          "value": "CBAF."
+        },
+        {
+          "count": 182,
+          "value": "2"
+        },
+        {
+          "count": 135,
+          "value": "EEP/42..."
+        },
+        {
+          "count": 125,
+          "value": "3"
+        },
+        {
+          "count": 100,
+          "value": "101"
+        },
+        {
+          "count": 99,
+          "value": "8"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 171089,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "year_of_manufacture",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Year Of Manufacture",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 2026,
+        "mean": 584.4766920476972,
+        "median": 0.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 279549,
+          "value": "0"
+        },
+        {
+          "count": 4182,
+          "value": "1978"
+        },
+        {
+          "count": 4105,
+          "value": "1979"
+        },
+        {
+          "count": 3597,
+          "value": "1977"
+        },
+        {
+          "count": 3392,
+          "value": "1976"
+        },
+        {
+          "count": 3092,
+          "value": "1968"
+        },
+        {
+          "count": 3079,
+          "value": "1980"
+        },
+        {
+          "count": 3071,
+          "value": "1975"
+        },
+        {
+          "count": 2985,
+          "value": "1981"
+        },
+        {
+          "count": 2978,
+          "value": "1974"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 111,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "engine_model",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Engine Model",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 13.803777161105272,
+        "kind": "text",
+        "maxLength": 43,
+        "minLength": 2
+      },
+      "topValues": [
+        {
+          "count": 283068,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 2394,
+          "value": "Lycoming O-235-L2C"
+        },
+        {
+          "count": 2181,
+          "value": "Lycoming O-320"
+        },
+        {
+          "count": 2145,
+          "value": "CFMI CFM56-7B"
+        },
+        {
+          "count": 1998,
+          "value": "Continental O-200-A"
+        },
+        {
+          "count": 1703,
+          "value": "de Havilland Gipsy Major"
+        },
+        {
+          "count": 1555,
+          "value": "Pratt & Whitney R-1830-92"
+        },
+        {
+          "count": 1499,
+          "value": "Lycoming O-360-J2A"
+        },
+        {
+          "count": 1459,
+          "value": "Lycoming O-320-E2D"
+        },
+        {
+          "count": 1267,
+          "value": "Lycoming O-540"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 13722,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "cycles",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Cycles",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 11.973235237036645,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 394850,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 3,
+          "value": "1.0"
+        },
+        {
+          "count": 3,
+          "value": "16666.0"
+        },
+        {
+          "count": 2,
+          "value": "1069.0"
+        },
+        {
+          "count": 2,
+          "value": "1070.0"
+        },
+        {
+          "count": 2,
+          "value": "1080.0"
+        },
+        {
+          "count": 2,
+          "value": "1083.0"
+        },
+        {
+          "count": 2,
+          "value": "11387.0"
+        },
+        {
+          "count": 2,
+          "value": "1151.0"
+        },
+        {
+          "count": 2,
+          "value": "11789.0"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 1829,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "total_airframe_hrs",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Total Airframe Hrs",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 10.912708914614383,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 326702,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 162,
+          "value": "1.0"
+        },
+        {
+          "count": 138,
+          "value": "3000.0"
+        },
+        {
+          "count": 129,
+          "value": "2500.0"
+        },
+        {
+          "count": 117,
+          "value": "4000.0"
+        },
+        {
+          "count": 116,
+          "value": "2000.0"
+        },
+        {
+          "count": 113,
+          "value": "3500.0"
+        },
+        {
+          "count": 102,
+          "value": "2200.0"
+        },
+        {
+          "count": 102,
+          "value": "2300.0"
+        },
+        {
+          "count": 95,
+          "value": "2.0"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 15385,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_damage",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Damage",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 9.14559534894284,
+        "kind": "text",
+        "maxLength": 22,
+        "minLength": 5
+      },
+      "topValues": [
+        {
+          "count": 239831,
+          "value": "Destroyed"
+        },
+        {
+          "count": 113089,
+          "value": "Substantial"
+        },
+        {
+          "count": 40995,
+          "value": "Minor"
+        },
+        {
+          "count": 2355,
+          "value": "Missing"
+        },
+        {
+          "count": 18,
+          "value": "Minor, repaired"
+        },
+        {
+          "count": 5,
+          "value": "Destroyed, written off"
+        },
+        {
+          "count": 2,
+          "value": "Aircraft missing"
+        },
+        {
+          "count": 2,
+          "value": "Substantial, repaired"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 8,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_disposition",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Disposition",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 11.896940917901063,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 8
+      },
+      "topValues": [
+        {
+          "count": 369187,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 23125,
+          "value": "Written off"
+        },
+        {
+          "count": 4441,
+          "value": "Repaired"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 3,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "history_of_this_aircraft",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "History Of This Aircraft",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 27.08386830093282,
+        "kind": "text",
+        "maxLength": 278010,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 362281,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 4,
+          "value": "."
+        },
+        {
+          "count": 3,
+          "value": "Other occurrences involving this aircraft\n\n27 May 1940\nL9391\n107 Sqn RAF\n1\nnear \u00c9perlecques,Pas-de-Calais\n\nw/o\n\n2 June 1940\nN6190\n107 Sqn RAF\n0\nRAF Wattisham, Suffolk, England\n\nw/o\n\n23 June 1940\nR3688\n107 Sqn RAF\n3\nRonde Blesse Rd, Willemsoord, 6km NW of Steenwijk, province Overijssel\n\nw/o\n\n23 June 1940\nN3593\n107 Sqn RAF\n2\nSloten en Riekerpolder, Amsterdam, Noord-Holland\n\nw/o\n\n30 August 1940\nN3620\n107 Sqn RAF\n3\nBalgzand nature reserve, Breezand, Noord-Holland\n\nw/o\n\n9 September 1940\nT1851\n107 Sqn RAF\n3\nMissing - North Sea\n\nw/o\n\n9 September 1940\nT1831\n107 Sqn RAF\n3\nfield near the village of Hesdin, Pas de Calais.\n\nw/o\n\n25 September 1940\nT1883\n107 Sqn RAF\n3\nGuemps, about 10 km southeast of Calais, Pas-de-Calais.\n\nw/o"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n1 January 1970\nP-01\nFuerza A\u00e9rea Argentina - FAA\n\nAntarctica\n\nw/o"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n1 July 1991\nN89900\nP.c. Flyers\n0\nWatkins, CO\n\nsub\n\n29 July 1992\nN89900\nInt'l Airline Crew Training\n0\nValkaria, FL\n\nsub"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n1 November 2008\nZU-CNG\nPrivate\n0\nBeaufort West Airport, Northern Cape\n\nmin"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n10 April 1940\nL2923\n803 Sqn FAA RN\n2\nBergen Fjord,\n\nw/o\n\n12 April 1940\nL3037\n803 Sqn FAA RN\n0\nAskoy Island, 10 miles north west of Bergen,\n\nw/o\n\n14 April 1940\nL????\n803 Sqn FAA RN\n2\nBergen Fjord,\n\nw/o\n\n20 April 1940\nL2999\n800 Sqn FAA RN\n2\nNorth Sea - en route from Bergen, Norway to Orkney Islands, Scotland\n\nw/o\n\n22 April 1940\nL????\n803 Sqn FAA RN\n1\nScapa Flow, Orkney Islands, Scotland\n\nw/o\n\n25 April 1940\nL3048\n803 Sqn FAA RN\n0\non a beach at Spillum, Namsos in Tr\u00f8ndelag county,\n\nnon\n\n25 April 1940\nL2881\n803 Sqn FAA RN\n0\nOsen,\u00a0S\u00f8r-Tr\u00f8ndelag,\n\nw/o\n\n26 April 1940\nL2991\n803 Sqn FAA RN\n1\nAlesund Harbour, M\u00f8re og Romsdal County,\n\nw/o\n\nDitching\n\n27 April 1940\nL2940\n800 Sqn FAA RN\n0\nlake Breidalsvatnet,\u00a0Grotli, Skj\u00e5k \u00a0municipality,\n\nw/o\n\nGear-up landing\n\n1 May 1940\nL????\n803 Sqn FAA RN\n0\nNorth Sea, off the Central Norwegian coast,\n\nw/o\n\n8 May 1940\nL2916\n803 Sqn FAA RN\n0\nthe sea at Tovika near Harstad, Vags-fjorden.\n\nw/o\n\n9 May 1940\nL3055\n800 Sqn FAA RN\n0\nsouth east of Gr\u00f8ndalsvatnet at Haugfjell, in the Norwegian mountains,\n\nw/o\n\n13 May 1940\nL3001\n800 Sqn FAA RN\n0\nSandsoy, 10 miles north of Harstad,\n\nw/o\n\n13 May 1940\nL2938\n800 Sqn FAA RN\n0\nSouth of Harstad, off the north Norwegian coast,\n\nw/o\n\n14 May 1940\nL2925\n803 Sqn FAA RN\n2\nOff Tranoy, west of Narvik\n\nw/o\n\n14 May 1940\nL2918\n803 Sqn FAA RN\n0\nOn the shore of Herjangsfjorden at\u00a0Breivika\u00a02 miles west of Isfjorden\n\nw/o\n\n21 May 1940\nL3010\n803 Sqn FAA RN\n0\nSandsoya 13 miles north of Harstad,\n\nunk\n\n28 May 1940\nL2878\n806 Sqn FAA RN\n0\nEnglish Channel off the Dunkirk coast,\n\nw/o\n\n28 May 1940\nL2896\n806 Sqn FAA RN\n1\nRAF Manston, Kent, England\n\nsub\n\nGear-up landing\n\n28 May 1940\n????? L6-?\n806 Sqn FAA RN\n0\nRAF Manston, Kent, England\n\nw/o\n\n31 May 1940\nL2917\n801 Sqn FAA RN\n2\nNorth of Dunkirk,\n\nw/o\n\n31 May 1940\nL????\n801 Sqn FAA RN\n0\nNear Dunkirk,\n\nsub\n\n13 June 1940\nL3028\n800 Sqn FAA RN\n2\nHermstadheia, Rissa S\u00f8r-Tr\u00f8ndelag , 20 miles northwest of Trondheim,\n\nw/o\n\n13 June 1940\nL3047\n800 Sqn FAA RN\n1\nThe sea, off Stadsbygd,14 miles northwest of Trondheim.\n\nw/o\n\n13 June 1940\nL2992\n803 Sqn FAA RN\n2\nOn a hillside at Kj\u00f8ra, 15 miles west of Trondheim\n\nw/o\n\n13 June 1940\nL2955\n803 Sqn FAA RN\n0\nVagnillgrenda 34 miles south of Trondheim\n\nw/o\n\n13 June 1940\nL2963\n803 Sqn FAA RN\n0\nIn the sea at Fr\u00f8setskj\u00e6ret Byneset 14 miles west of Trondheim.\n\nw/o\n\n13 June 1940\nL2896\n803 Sqn FAA RN\n0\nIn the sea at Orkdalsfjord S\u00f8r-Tr\u00f8ndelag 17 miles west of Trondheim.\n\nw/o\n\n13 June 1940\nL2995\n800 Sqn FAA RN\n1\nStallvika, Bjugn, 28 northwest of Trondheim,\n\nw/o\n\n13 June 1940\nL3000\n800 Sqn FAA RN\n1\nMollebakken, western suberb of Trondheim,\n\nw/o\n\n18 June 1940\nL---- \"F\"\n801 Sqn FAA RN\n0\nBetween Boulogne and Calais\n\nsub\n\n19 June 1940\nL---- \"P\"\n801 Sqn FAA RN\n0\nBetween Boulogne and Calais\n\nsub\n\n3 July 1940\nL2915\n803 Sqn FAA RN\n2\nMediterranean Sea off Oran City,\n\nw/o\n\n3 July 1940\nL2891\n803 Sqn FAA RN\n0\nMediterranean Sea off Oran City,\n\nw/o\n\n22 September 1940\nL2942\n801 Sqn FAA RN\n0\nriver Fax\u00e4lven, Ramsele, V\u00e4sternorrland County, 70 km north-west of So\n\nw/o"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n10 August 2017\nHK-1894-G\nAdevia Flight School\n0\nCota, Cundinamarca\n\nsub"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n11 May 1959\nCF-JRS\nWardair\n0\nCoral Harbour, Southampton Island, NT\n\nw/o"
+        },
+        {
+          "count": 2,
+          "value": "Other occurrences involving this aircraft\n\n11 September 2002\nC-FHDY\nAlpine Helicopters\n1\n20 mi W Pink Mountain, BC\n\nw/o"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 34440,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "occupants",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Occupants",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 578,
+        "mean": 5.585149954757746,
+        "median": 1.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 133406,
+          "value": "1"
+        },
+        {
+          "count": 91754,
+          "value": "0"
+        },
+        {
+          "count": 85261,
+          "value": "2"
+        },
+        {
+          "count": 23686,
+          "value": "3"
+        },
+        {
+          "count": 18370,
+          "value": "4"
+        },
+        {
+          "count": 7861,
+          "value": "5"
+        },
+        {
+          "count": 5864,
+          "value": "7"
+        },
+        {
+          "count": 5564,
+          "value": "6"
+        },
+        {
+          "count": 2436,
+          "value": "8"
+        },
+        {
+          "count": 2285,
+          "value": "10"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 483,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "fatalities_onboard",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Fatalities Onboard",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 520,
+        "mean": 0.9270881379598894,
+        "median": 0.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 281435,
+          "value": "0"
+        },
+        {
+          "count": 54065,
+          "value": "1"
+        },
+        {
+          "count": 27909,
+          "value": "2"
+        },
+        {
+          "count": 9589,
+          "value": "3"
+        },
+        {
+          "count": 7627,
+          "value": "4"
+        },
+        {
+          "count": 3888,
+          "value": "5"
+        },
+        {
+          "count": 2932,
+          "value": "6"
+        },
+        {
+          "count": 2874,
+          "value": "7"
+        },
+        {
+          "count": 1227,
+          "value": "8"
+        },
+        {
+          "count": 778,
+          "value": "9"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 199,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "survivors_onboard",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Survivors Onboard",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 578,
+        "mean": 4.658061816797857,
+        "median": 1.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 185103,
+          "value": "0"
+        },
+        {
+          "count": 101805,
+          "value": "1"
+        },
+        {
+          "count": 57722,
+          "value": "2"
+        },
+        {
+          "count": 15265,
+          "value": "3"
+        },
+        {
+          "count": 10336,
+          "value": "4"
+        },
+        {
+          "count": 4315,
+          "value": "5"
+        },
+        {
+          "count": 2804,
+          "value": "6"
+        },
+        {
+          "count": 1853,
+          "value": "7"
+        },
+        {
+          "count": 1100,
+          "value": "8"
+        },
+        {
+          "count": 978,
+          "value": "10"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 483,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "fatalities_ground",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Fatalities Ground",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 1600,
+        "mean": 0.08054129395366891,
+        "median": 0.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 389301,
+          "value": "0"
+        },
+        {
+          "count": 3857,
+          "value": "1"
+        },
+        {
+          "count": 1606,
+          "value": "2"
+        },
+        {
+          "count": 473,
+          "value": "3"
+        },
+        {
+          "count": 365,
+          "value": "4"
+        },
+        {
+          "count": 209,
+          "value": "5"
+        },
+        {
+          "count": 157,
+          "value": "6"
+        },
+        {
+          "count": 153,
+          "value": "7"
+        },
+        {
+          "count": 93,
+          "value": "9"
+        },
+        {
+          "count": 85,
+          "value": "8"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 90,
+      "valid": 396753
+    },
+    {
+      "dataType": "integer",
+      "field": "fatalities_total",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Fatalities Total",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 1692,
+        "mean": 1.0076294319135584,
+        "median": 0.0,
+        "min": 0
+      },
+      "topValues": [
+        {
+          "count": 278868,
+          "value": "0"
+        },
+        {
+          "count": 53334,
+          "value": "1"
+        },
+        {
+          "count": 28825,
+          "value": "2"
+        },
+        {
+          "count": 10165,
+          "value": "3"
+        },
+        {
+          "count": 8133,
+          "value": "4"
+        },
+        {
+          "count": 4076,
+          "value": "5"
+        },
+        {
+          "count": 3073,
+          "value": "6"
+        },
+        {
+          "count": 2955,
+          "value": "7"
+        },
+        {
+          "count": 1379,
+          "value": "8"
+        },
+        {
+          "count": 845,
+          "value": "9"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 206,
+      "valid": 396753
+    },
+    {
+      "dataType": "float",
+      "field": "survival_rate_onboard",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Survival Rate Onboard",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 1.0,
+        "mean": 0.506112187026392,
+        "median": 0.5,
+        "min": 0.0
+      },
+      "topValues": [
+        {
+          "count": 189681,
+          "value": "1.0"
+        },
+        {
+          "count": 185103,
+          "value": "0.0"
+        },
+        {
+          "count": 8162,
+          "value": "0.5"
+        },
+        {
+          "count": 1934,
+          "value": "0.6666666666666666"
+        },
+        {
+          "count": 1702,
+          "value": "0.3333333333333333"
+        },
+        {
+          "count": 1168,
+          "value": "0.75"
+        },
+        {
+          "count": 1073,
+          "value": "0.25"
+        },
+        {
+          "count": 575,
+          "value": "0.8"
+        },
+        {
+          "count": 502,
+          "value": "0.1428571428571428"
+        },
+        {
+          "count": 500,
+          "value": "0.2"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 771,
+      "valid": 396753
+    },
+    {
+      "dataType": "float",
+      "field": "fatality_rate_onboard",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Fatality Rate Onboard",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 10.0,
+        "mean": 0.2628551133678919,
+        "median": 0.0,
+        "min": 0.0
+      },
+      "topValues": [
+        {
+          "count": 281435,
+          "value": "0.0"
+        },
+        {
+          "count": 93292,
+          "value": "1.0"
+        },
+        {
+          "count": 8162,
+          "value": "0.5"
+        },
+        {
+          "count": 1934,
+          "value": "0.3333333333333333"
+        },
+        {
+          "count": 1702,
+          "value": "0.6666666666666666"
+        },
+        {
+          "count": 1168,
+          "value": "0.25"
+        },
+        {
+          "count": 1073,
+          "value": "0.75"
+        },
+        {
+          "count": 575,
+          "value": "0.2"
+        },
+        {
+          "count": 502,
+          "value": "0.8571428571428571"
+        },
+        {
+          "count": 500,
+          "value": "0.8"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 786,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "location",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Location",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 24.036014941323547,
+        "kind": "text",
+        "maxLength": 79,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 8919,
+          "value": "World"
+        },
+        {
+          "count": 1302,
+          "value": "Germany"
+        },
+        {
+          "count": 1232,
+          "value": "United States of America"
+        },
+        {
+          "count": 555,
+          "value": "China"
+        },
+        {
+          "count": 507,
+          "value": "France"
+        },
+        {
+          "count": 474,
+          "value": "Spain"
+        },
+        {
+          "count": 405,
+          "value": "on ops, Arnhem, Gelderland"
+        },
+        {
+          "count": 399,
+          "value": "Vietnam"
+        },
+        {
+          "count": 386,
+          "value": "Anchorage, AK"
+        },
+        {
+          "count": 259,
+          "value": "Japan"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 225919,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "country",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Country",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 14.568639460411799,
+        "kind": "text",
+        "maxLength": 71,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 156158,
+          "value": "United States of America"
+        },
+        {
+          "count": 30786,
+          "value": "United Kingdom"
+        },
+        {
+          "count": 18713,
+          "value": "Germany"
+        },
+        {
+          "count": 13147,
+          "value": "France"
+        },
+        {
+          "count": 12212,
+          "value": "Canada"
+        },
+        {
+          "count": 9964,
+          "value": "Netherlands"
+        },
+        {
+          "count": 9725,
+          "value": "Australia"
+        },
+        {
+          "count": 8919,
+          "value": "World"
+        },
+        {
+          "count": 7334,
+          "value": "Brazil"
+        },
+        {
+          "count": 6857,
+          "value": "Italy"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 1763,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "continent",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Continent",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.408803462103626,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 4
+      },
+      "topValues": [
+        {
+          "count": 196221,
+          "value": "America"
+        },
+        {
+          "count": 120804,
+          "value": "Europe"
+        },
+        {
+          "count": 34727,
+          "value": "Asia"
+        },
+        {
+          "count": 18195,
+          "value": "Oceania"
+        },
+        {
+          "count": 12781,
+          "value": "Africa"
+        },
+        {
+          "count": 8996,
+          "value": "World"
+        },
+        {
+          "count": 3678,
+          "value": "Oceans/Seas"
+        },
+        {
+          "count": 1217,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 134,
+          "value": "Antarctica"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 9,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "region",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Region",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 12.982744931985392,
+        "kind": "text",
+        "maxLength": 18,
+        "minLength": 5
+      },
+      "topValues": [
+        {
+          "count": 171600,
+          "value": "North America"
+        },
+        {
+          "count": 84557,
+          "value": "Western Europe"
+        },
+        {
+          "count": 19401,
+          "value": "South America"
+        },
+        {
+          "count": 15593,
+          "value": "Australasia"
+        },
+        {
+          "count": 14906,
+          "value": "Southern Europe"
+        },
+        {
+          "count": 12875,
+          "value": "Eastern Europe"
+        },
+        {
+          "count": 11304,
+          "value": "East Asia"
+        },
+        {
+          "count": 9898,
+          "value": "Southeast Asia"
+        },
+        {
+          "count": 9568,
+          "value": "Sub-Saharan Africa"
+        },
+        {
+          "count": 8996,
+          "value": "World"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 23,
+      "valid": 396753
+    },
+    {
+      "dataType": "float",
+      "field": "gps_latitude",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Gps Latitude",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 89.524997,
+        "mean": 32.28131667286433,
+        "median": 38.4876,
+        "min": -85.0001
+      },
+      "topValues": [
+        {
+          "count": 55574,
+          "value": "38.4876"
+        },
+        {
+          "count": 24187,
+          "value": "52.0906"
+        },
+        {
+          "count": 14789,
+          "value": "50.8375"
+        },
+        {
+          "count": 13645,
+          "value": "0.0"
+        },
+        {
+          "count": 10940,
+          "value": "46.2276"
+        },
+        {
+          "count": 9578,
+          "value": "49.1939"
+        },
+        {
+          "count": 8621,
+          "value": "52.2102"
+        },
+        {
+          "count": 6891,
+          "value": "-33.3681"
+        },
+        {
+          "count": 5913,
+          "value": "43.8101"
+        },
+        {
+          "count": 5387,
+          "value": "-40.3202"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 87659,
+      "valid": 396753
+    },
+    {
+      "dataType": "float",
+      "field": "gps_longitude",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Gps Longitude",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "kind": "numeric",
+        "max": 179.3406,
+        "mean": -28.165902604547224,
+        "median": -24.5,
+        "min": -179.9084
+      },
+      "topValues": [
+        {
+          "count": 56823,
+          "value": "-95.7129"
+        },
+        {
+          "count": 24187,
+          "value": "-1.2443"
+        },
+        {
+          "count": 14789,
+          "value": "9.3783"
+        },
+        {
+          "count": 13463,
+          "value": "0.0"
+        },
+        {
+          "count": 10434,
+          "value": "2.6411"
+        },
+        {
+          "count": 9570,
+          "value": "-89.3239"
+        },
+        {
+          "count": 8621,
+          "value": "4.8036"
+        },
+        {
+          "count": 6888,
+          "value": "146.8331"
+        },
+        {
+          "count": 5913,
+          "value": "12.0546"
+        },
+        {
+          "count": 5409,
+          "value": "174.7917"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 88561,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "phase",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Phase",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 8.797855794220778,
+        "kind": "text",
+        "maxLength": 44,
+        "minLength": 4
+      },
+      "topValues": [
+        {
+          "count": 147495,
+          "value": "En Route"
+        },
+        {
+          "count": 92072,
+          "value": "Landing"
+        },
+        {
+          "count": 38821,
+          "value": "Take Off"
+        },
+        {
+          "count": 27877,
+          "value": "Combat"
+        },
+        {
+          "count": 25586,
+          "value": "Approach"
+        },
+        {
+          "count": 19892,
+          "value": "Initial Climb"
+        },
+        {
+          "count": 13909,
+          "value": "Manoeuvring"
+        },
+        {
+          "count": 12476,
+          "value": "Standing"
+        },
+        {
+          "count": 9665,
+          "value": "Manoeuvring (Airshow, Firefighting, Ag.Ops.)"
+        },
+        {
+          "count": 7762,
+          "value": "Taxi"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 15,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "phase_group",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Phase Group",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 6.444843293496044,
+        "kind": "text",
+        "maxLength": 7,
+        "minLength": 6
+      },
+      "topValues": [
+        {
+          "count": 199355,
+          "value": "flight"
+        },
+        {
+          "count": 117658,
+          "value": "landing"
+        },
+        {
+          "count": 58810,
+          "value": "takeoff"
+        },
+        {
+          "count": 20874,
+          "value": "ground"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 4,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "nature",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Nature",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 9.306542164452836,
+        "kind": "text",
+        "maxLength": 42,
+        "minLength": 4
+      },
+      "topValues": [
+        {
+          "count": 155285,
+          "value": "Military"
+        },
+        {
+          "count": 136536,
+          "value": "Private"
+        },
+        {
+          "count": 25611,
+          "value": "Training"
+        },
+        {
+          "count": 23474,
+          "value": "Passenger - Scheduled"
+        },
+        {
+          "count": 12625,
+          "value": "Agricultural"
+        },
+        {
+          "count": 7564,
+          "value": "Executive"
+        },
+        {
+          "count": 6158,
+          "value": "Passenger - Non-Scheduled/charter/Air Taxi"
+        },
+        {
+          "count": 5896,
+          "value": "Cargo"
+        },
+        {
+          "count": 5621,
+          "value": "Ferry/positioning"
+        },
+        {
+          "count": 3649,
+          "value": "Test"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 23,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "departure_airport",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Departure Airport",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 17.287752909308274,
+        "kind": "text",
+        "maxLength": 77,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 168814,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 540,
+          "value": "Ted Stevens Anchorage International Airport"
+        },
+        {
+          "count": 521,
+          "value": "Amsterdam Airport Schiphol"
+        },
+        {
+          "count": 413,
+          "value": "London Heathrow Airport"
+        },
+        {
+          "count": 397,
+          "value": "Gilze-Rijen Air Base"
+        },
+        {
+          "count": 385,
+          "value": "William P. Hobby Airport"
+        },
+        {
+          "count": 370,
+          "value": "Miami International Airport"
+        },
+        {
+          "count": 368,
+          "value": "RAF Manston"
+        },
+        {
+          "count": 358,
+          "value": "RAF West Raynham"
+        },
+        {
+          "count": 341,
+          "value": "Soesterberg Air Base"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 72574,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "departure_iata",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Departure Iata",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 11.144603821521198,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 359044,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 418,
+          "value": "LHR"
+        },
+        {
+          "count": 397,
+          "value": "GLZ"
+        },
+        {
+          "count": 373,
+          "value": "MIA"
+        },
+        {
+          "count": 307,
+          "value": "LAX"
+        },
+        {
+          "count": 275,
+          "value": "JFK"
+        },
+        {
+          "count": 264,
+          "value": "YYZ"
+        },
+        {
+          "count": 257,
+          "value": "SLC"
+        },
+        {
+          "count": 250,
+          "value": "DEN"
+        },
+        {
+          "count": 247,
+          "value": "UDE"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 4484,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "destination_airport",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Destination Airport",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 16.25371692354262,
+        "kind": "text",
+        "maxLength": 77,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 219880,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 3186,
+          "value": "Local"
+        },
+        {
+          "count": 414,
+          "value": "Ted Stevens Anchorage International Airport"
+        },
+        {
+          "count": 388,
+          "value": "Miami International Airport"
+        },
+        {
+          "count": 373,
+          "value": "London Heathrow Airport"
+        },
+        {
+          "count": 355,
+          "value": "O'Hare International Airport"
+        },
+        {
+          "count": 310,
+          "value": "Amsterdam Airport Schiphol"
+        },
+        {
+          "count": 304,
+          "value": "William P. Hobby Airport"
+        },
+        {
+          "count": 301,
+          "value": "John F. Kennedy International Airport"
+        },
+        {
+          "count": 293,
+          "value": "Los Angeles International Airport"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 60926,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "destination_iata",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Destination Iata",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 11.231302598846133,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 362866,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 389,
+          "value": "MIA"
+        },
+        {
+          "count": 379,
+          "value": "LHR"
+        },
+        {
+          "count": 323,
+          "value": "DEN"
+        },
+        {
+          "count": 304,
+          "value": "JFK"
+        },
+        {
+          "count": 299,
+          "value": "LAX"
+        },
+        {
+          "count": 237,
+          "value": "SLC"
+        },
+        {
+          "count": 221,
+          "value": "STL"
+        },
+        {
+          "count": 218,
+          "value": "BWU"
+        },
+        {
+          "count": 215,
+          "value": "YYZ"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 4605,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "metar",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Metar",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 13.073703286427575,
+        "kind": "text",
+        "maxLength": 2484,
+        "minLength": 9
+      },
+      "topValues": [
+        {
+          "count": 394910,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 4,
+          "value": "SPECI KDTO 060312Z AUTO 34023G37KT 1 1/4SM +TSRA BR BKN023 BKN038 OVC055 21/21 A3000 RMK AO2 PK WND 35043/0254 LTG DSNT N AND NE AND S PRESRR P0007 T02110211 $\nSPECI KDTO 060258Z AUTO 33026G50KT 1 3/4SM +TSRA BR SCT028 BKN048 OVC055 22/20 A2996 RMK AO2 PK WND 35043/0254 LTG DSNT ALQDS P0002 T02220200 $\nMETAR KDTO 060253Z AUTO 35030G50KT 5SM TSRA FEW028 BKN047 OVC055 23/19 A2993 RMK AO2 PK WND 36050/0253 LTG DSNT ALQDS RAB50 TSB47 SLP127 P0001 60011 T02330194 51028 $\nSPECI KDTO 060237Z 36007G17KT 10SM VCTS BKN050 22/20 A2994 RMK AO2 LTG DSNT W-N T02220200 $\nMETAR KDTO 060153Z 34007KT 10SM CLR 22/19 A2991 RMK AO2 SLP121 T02170189 $\nMETAR KDTO 060053Z 10SM FEW110 22/19 A2989 RMK AO2 WSHFT 2342 LTG DSNT NE AND E RAE07 TSE12 SLP115 P0010 T02220194 $\nSPECI KDTO 060032Z 03010KT 10SM FEW110 22/21 A2988 RMK AO2 WSHFT 2342 LTG DSNT NE-SE RAE07 TSE12 PRESRR P0010 T02170206\nSPECI KDTO 060018Z 36008KT 10SM VCTS FEW110 22/20 A2986 RMK AO2 WSHFT 2342 LTG DSNT NE-SE RAE07 TSE12 P0008 T02220200\nSPECI KDTO 060003Z 01008G21KT 10SM -TSRA SCT017 SCT110 22/20 A2984 RMK AO2 WSHFT 2342 LTG DSNT N-E P0004 T02220200\nSPECI KDTO 052356Z 03012G25KT 360V090 3SM -TSRA BR BKN015 BKN042 BKN110 22/20 A2984 RMK AO2 WSHFT 2342 LTG DSNT NW-NE P0001 T02220200\nMETAR KDTO 052353Z 02015G41KT 1 1/4SM TSRA BR BKN015 BKN042 OVC110 22/20 A2985 RMK AO2 PK WND 26065/2336 WSHFT 2305 LTG DSNT NW-NE RAB20 TSB20 SLP099 P0065 60065 T02220200 10361 20217 53005\nSPECI KDTO 052343Z 07016G65KT 1/2SM +TSRA FG BKN020 BKN036 OVC065 23/21 A2991 RMK AO2 PK WND 26065/2336 WSHFT 2305 LTG DSNT NW-NE RAB20 TSB20 PRESRR P0059 T02280206\nSPECI KDTO 052333Z 29037G55KT 1 3/4SM +TSRA BR SCT040 OVC070 22/21 A2981 RMK AO2 PK WND 29055/2319 WSHFT 2305 LTG DSNT N AND NW RAB20 TSB20 PRESFR P0012 T02170206\nSPECI KDTO 052320Z 30038G55KT 3SM -TSRA SQ SCT035 OVC075 25/20 A2981 RMK AO2 PK WND 29055/2319 WSHFT 2305 LTG DSNT W AND NW RAB20 TSB20 P0000 T02500200"
+        },
+        {
+          "count": 4,
+          "value": "Weather:\nMETAR KBJI 210535Z AUTO 09023G29KT 7SM +TSRA BKN031 OVC043 20/20 A2936 RMK AO2 LTG DSNT ALQDS P0020 T02040204\nMETAR KBJI 210555Z AUTO 33034G92KT 3/4SM +TSRA OVC003 17/17 A2967 RMK AO2 LTG DSNT ALQDS P0088 60097 T01720172 10255 20172 402860125 <<<<\nMETAR KBJI 210615Z AUTO 36011G19KT 10SM TSRA SCT007 BKN065 OVC080 16/16 A2961 RMK AO2 LTG DSNT ALQDS T01610161"
+        },
+        {
+          "count": 3,
+          "value": "SGAS 281900Z 33008KT 9999 BKN033 FEW040TCU 38/21 Q1008\nSGAS 282020Z 18019KT 9999 -TSRA BKN027 FEW040CB 30/24 Q1006\nSGAS 282119Z 24015G25KT 3000 TSRA BKN020 FEW040CB 25/25 Q1009\nSGAS 282200Z 14011KT 110V200 9000 -TSRA BKN020 FEW040CB 25/25 Q1008"
+        },
+        {
+          "count": 3,
+          "value": "TNCC 231400Z 06003kt 030V100 9999 FEW018 28/24 Q1012 NOSIG"
+        },
+        {
+          "count": 2,
+          "value": "03:30 UTC / 10:30 local time:\nWIMM 030330Z 08005KT 030V120 9000 BKN018 30/26 Q1010\n04:00 UTC / 11:00 local time:\nWIMM 030400Z 11007KT 040V140 9999 BKN018 30/25 Q1010\n\n04:30 UTC / 11:30 local time:\nWIMM 030430Z 06007KT 040V100 9999 BKN018 31/26 Q1009"
+        },
+        {
+          "count": 2,
+          "value": "10:00 UTC / 11:00 local time:\nMETAR LFSB 071000Z VRB04KT 9999 FEW026 BKN110 06/M03 Q1004 NOSIG\nlight variable winds at 4 knots, a visibility of 10+ km with clouds at 2600 ft and broken clouds at 11000 feet"
+        },
+        {
+          "count": 2,
+          "value": "12:00 UTC / 19:00 local time:\nWIHH 041200Z 04006KT 5000 HZ FEW017CB SCT018 30/25 Q1010 RMK CB TO SW"
+        },
+        {
+          "count": 2,
+          "value": "19:45 UTC / 16:45 local time:\n071945Z SPECI SABE 071945Z 09008 KT 3000 TSRA FEW035CB OVC 100 16/13 Q1014"
+        },
+        {
+          "count": 2,
+          "value": "22:38 UTC / 07:38 local time:\nRKSS 252238Z 12005KT 090V160 2500 RA BR BKN025 OVC080 21/17 Q1008 NOSIG\n23:00 UTC / 08:00 local time:\nRKSS 252300Z 10010KT 2500 RA BR BKN025 OVC080 20/17 Q1007 NOSIG"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 1772,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "weather_or_visibility_mentioned",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Weather Or Visibility Mentioned",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 10.86726754429078,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 346818,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 49935,
+          "value": "yes"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 2,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "investigating_agency",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Investigating Agency",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 8.953893228280567,
+        "kind": "text",
+        "maxLength": 18,
+        "minLength": 3
+      },
+      "topValues": [
+        {
+          "count": 240181,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 106397,
+          "value": "NTSB"
+        },
+        {
+          "count": 5403,
+          "value": "BFU"
+        },
+        {
+          "count": 5127,
+          "value": "AAIB"
+        },
+        {
+          "count": 4161,
+          "value": "CENIPA"
+        },
+        {
+          "count": 3648,
+          "value": "BEA"
+        },
+        {
+          "count": 3215,
+          "value": "BASI"
+        },
+        {
+          "count": 2638,
+          "value": "TSB"
+        },
+        {
+          "count": 2296,
+          "value": "CAA S.A."
+        },
+        {
+          "count": 2138,
+          "value": "FAA"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 255,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "accident_investigation_duration",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Accident Investigation Duration",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 9.62024735792798,
+        "kind": "text",
+        "maxLength": 12,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 306908,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 6777,
+          "value": "2"
+        },
+        {
+          "count": 6751,
+          "value": "3"
+        },
+        {
+          "count": 6246,
+          "value": "1"
+        },
+        {
+          "count": 5980,
+          "value": "12"
+        },
+        {
+          "count": 5344,
+          "value": "4"
+        },
+        {
+          "count": 4769,
+          "value": "5"
+        },
+        {
+          "count": 4375,
+          "value": "6"
+        },
+        {
+          "count": 4244,
+          "value": "7"
+        },
+        {
+          "count": 3964,
+          "value": "8"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 234,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "accident_investigation_report",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Accident Investigation Report",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 12.00223816833143,
+        "kind": "text",
+        "maxLength": 18,
+        "minLength": 12
+      },
+      "topValues": [
+        {
+          "count": 396605,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 148,
+          "value": "Preliminary report"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 2,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "accident_investigation_report_number",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Accident Investigation Report Number",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 11.43175728979995,
+        "kind": "text",
+        "maxLength": 25,
+        "minLength": 2
+      },
+      "topValues": [
+        {
+          "count": 276039,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 7,
+          "value": "IN-031/2018"
+        },
+        {
+          "count": 5,
+          "value": "EW/G2005/12/01"
+        },
+        {
+          "count": 5,
+          "value": "NTSB/AAR-87/02/SUM"
+        },
+        {
+          "count": 4,
+          "value": "AO-2023-001"
+        },
+        {
+          "count": 3,
+          "value": "1955"
+        },
+        {
+          "count": 3,
+          "value": "2219"
+        },
+        {
+          "count": 3,
+          "value": "2244"
+        },
+        {
+          "count": 3,
+          "value": "2411"
+        },
+        {
+          "count": 3,
+          "value": "3X169-0/09"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 119765,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "accident_investigation_status",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Accident Investigation Status",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 15.952010444785547,
+        "kind": "text",
+        "maxLength": 23,
+        "minLength": 12
+      },
+      "topValues": [
+        {
+          "count": 252996,
+          "value": "Not Recorded"
+        },
+        {
+          "count": 141086,
+          "value": "Investigation completed"
+        },
+        {
+          "count": 2671,
+          "value": "Preliminary report"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 3,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "narrative",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Narrative",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 498.3596620567456,
+        "kind": "text",
+        "maxLength": 23967,
+        "minLength": 1
+      },
+      "topValues": [
+        {
+          "count": 8838,
+          "value": "Crashed."
+        },
+        {
+          "count": 3050,
+          "value": "Landing accident."
+        },
+        {
+          "count": 2477,
+          "value": "Crashed; crew bailed out."
+        },
+        {
+          "count": 2205,
+          "value": "PROBABLE CAUSE:"
+        },
+        {
+          "count": 1662,
+          "value": "Circumstances not known."
+        },
+        {
+          "count": 1548,
+          "value": "Take off accident."
+        },
+        {
+          "count": 1518,
+          "value": "Forced landing."
+        },
+        {
+          "count": 1369,
+          "value": "CNK"
+        },
+        {
+          "count": 1342,
+          "value": "The aircraft was involved in an accident."
+        },
+        {
+          "count": 1130,
+          "value": "Mid-air collision."
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 336318,
+      "valid": 396753
+    },
+    {
+      "dataType": "string",
+      "field": "aircraft_image_url",
+      "invalid": 0,
+      "invalidBreakdown": [],
+      "label": "Aircraft Image Url",
+      "null": 0,
+      "nullBreakdown": [
+        {
+          "marker": "database_null",
+          "count": 0
+        },
+        {
+          "marker": "blank",
+          "count": 0
+        },
+        {
+          "marker": "unknown",
+          "count": 0
+        },
+        {
+          "marker": "n/a",
+          "count": 0
+        },
+        {
+          "marker": "none",
+          "count": 0
+        },
+        {
+          "marker": "nan",
+          "count": 0
+        },
+        {
+          "marker": "undefined",
+          "count": 0
+        },
+        {
+          "marker": "dash",
+          "count": 0
+        }
+      ],
+      "qualityPercent": 100.0,
+      "statistics": {
+        "averageLength": 55.466895020327506,
+        "kind": "text",
+        "maxLength": 115,
+        "minLength": 12
+      },
+      "topValues": [
+        {
+          "count": 17305,
+          "value": "https://asn.flightsafety.org/database/country/flags_15/N.gif"
+        },
+        {
+          "count": 11011,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/C172.gif"
+        },
+        {
+          "count": 7137,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/P28A.gif"
+        },
+        {
+          "count": 6393,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/C150.gif"
+        },
+        {
+          "count": 6250,
+          "value": "https://asn.flightsafety.org/database/country/flags_15/G.gif"
+        },
+        {
+          "count": 5514,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/DC3.gif"
+        },
+        {
+          "count": 5063,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/MOSQ.gif"
+        },
+        {
+          "count": 4272,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/CORS.gif"
+        },
+        {
+          "count": 4106,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/C182.gif"
+        },
+        {
+          "count": 3739,
+          "value": "https://asn.flightsafety.org/graphics/ICAOtype/SPIT.gif"
+        }
+      ],
+      "total": 396753,
+      "uniqueCount": 1749,
+      "valid": 396753
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "totalRows": 396753
+}
