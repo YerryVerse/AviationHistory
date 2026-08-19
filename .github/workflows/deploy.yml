@@ -36,7 +36,7 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
           NEXT_PUBLIC_ENABLE_DATA_ADMIN: "false"
         run: |
-          npm ci
+          npm install
           npm run build
           npm run verify:export
 
