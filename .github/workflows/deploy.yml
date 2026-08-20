@@ -33,11 +33,12 @@ jobs:
       - name: Install dependencies and build static portal
         working-directory: ./Website
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: /AviationHistory
           NEXT_PUBLIC_ENABLE_DATA_ADMIN: "false"
         run: |
           npm install
           npm run build
+          cp out/index.html out/404.html
           npm run verify:export
 
       - name: Upload Pages artifact
