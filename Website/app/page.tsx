@@ -7,7 +7,6 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import AnalyticsDashboard from "@/components/AnalyticsDashboard";
 import DataQuality from "@/components/DataQuality";
 import DataScienceView from "@/components/DataScienceView";
-import GlobalFlightsView from "@/components/GlobalFlightsView";
 import HistoricalStoryteller from "@/components/HistoricalStoryteller";
 import KpiView from "@/components/KpiView";
 import CommandShell, { type PortalView } from "@/components/shell/CommandShell";
@@ -19,7 +18,6 @@ import { useAnalyticsData, type StaticView } from "@/lib/staticData/useAnalytics
 const VIEW_SLUGS: Record<StaticView, string> = {
   Overview: "overview",
   Geography: "geography",
-  "Global Flights": "flights",
   Timeline: "timeline",
   Events: "events",
   "Data Science": "datascience",
@@ -30,7 +28,6 @@ const VIEW_SLUGS: Record<StaticView, string> = {
 const TITLES: Record<StaticView, string> = {
   Overview: "Historical Overview",
   Geography: "Geographic Analysis",
-  "Global Flights": "Global Commercial & Registered Flights",
   Timeline: "Historical Timeline",
   Events: "Events",
   "Data Science": "Data Science & Analytical Slicing",
@@ -75,7 +72,6 @@ export default function Page() {
   }, [data.filters, data.view, urlReady]);
 
   const renderView = () => {
-    if (data.view === "Global Flights") return <GlobalFlightsView />;
     if (data.view === "Timeline") return <HistoricalStoryteller events={data.events} snapshot={data.dashboard} />;
     if (data.view === "Events") return (
       <TableDataset

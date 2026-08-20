@@ -1,16 +1,15 @@
 "use client";
 
 import { ActionIcon, AppShell, Burger, Group, NavLink, ScrollArea, Text, useComputedColorScheme, useMantineColorScheme } from "@mantine/core";
-import { BarChart3, CheckCircle2, Database, DatabaseZap, FlaskConical, Map, Moon, Plane, Rows3, Sun, Target, TimerReset } from "lucide-react";
+import { BarChart3, CheckCircle2, Database, DatabaseZap, FlaskConical, Map, Moon, Rows3, Sun, Target, TimerReset } from "lucide-react";
 import { useState, type ReactNode } from "react";
 
 
-export type PortalView = "Overview" | "Geography" | "Global Flights" | "Timeline" | "Events" | "Data Science" | "Quality" | "KPI";
+export type PortalView = "Overview" | "Geography" | "Timeline" | "Events" | "Data Science" | "Quality" | "KPI";
 
 const NAVIGATION: Array<{ label: PortalView; icon: typeof BarChart3 }> = [
   { label: "Overview", icon: BarChart3 },
   { label: "Geography", icon: Map },
-  { label: "Global Flights", icon: Plane },
   { label: "Timeline", icon: TimerReset },
   { label: "Events", icon: Rows3 },
   { label: "Data Science", icon: FlaskConical },

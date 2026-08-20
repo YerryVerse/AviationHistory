@@ -3,7 +3,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { MantineProvider } from "@mantine/core";
 import { describe, expect, it, vi } from "vitest";
 
-import GlobalFlightsView from "./GlobalFlightsView";
 import HistoricalStoryteller from "./HistoricalStoryteller";
 import TableDataset from "./TableDataset";
 import { aviationTheme } from "@/app/theme";
@@ -17,15 +16,6 @@ describe("secondary command views", () => {
     expect(screen.getByRole("heading", { name: "Historical event timeline" })).toBeTruthy();
     expect(screen.getByText("Historical occurrence")).toBeTruthy();
     expect(container.querySelector(".command-panel")).toBeTruthy();
-  });
-
-  it("renders global flights view", () => {
-    const { container } = render(
-      <MantineProvider theme={aviationTheme}>
-        <GlobalFlightsView />
-      </MantineProvider>,
-    );
-    expect(container).toBeTruthy();
   });
 
   it("keeps bounded table pagination accessible", () => {

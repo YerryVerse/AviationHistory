@@ -6,7 +6,7 @@ import { dataService } from "./dataService";
 import type { AnalyticsFilters, DashboardSnapshot, DatasetManifest, EventFieldFilter, FilterOptions, PagedEvents } from "./types";
 
 
-export type StaticView = "Overview" | "Geography" | "Global Flights" | "Timeline" | "Events" | "Data Science" | "Quality" | "KPI";
+export type StaticView = "Overview" | "Geography" | "Timeline" | "Events" | "Data Science" | "Quality" | "KPI";
 
 interface AnalyticsService {
   manifest(signal?: AbortSignal): Promise<DatasetManifest>;

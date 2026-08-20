@@ -25,7 +25,7 @@ export default function KpiView() {
   // Window State Controls for KPI Cards
   const [hiddenCardIds, setHiddenCardIds] = useState<Set<string>>(new Set());
   const [minimizedCardIds, setMinimizedCardIds] = useState<Set<string>>(
-    () => new Set(ALL_CARD_IDS)
+    () => new Set()
   );
   const [maximizedCardId, setMaximizedCardId] = useState<string | null>(null);
 
